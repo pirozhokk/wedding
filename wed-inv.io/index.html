@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="images/icon/icon180.ico" rel="apple-touch-icon" sizes="180x180"/>
+  <link href="images/icon/icon32.png" rel="icon" sizes="32x32" type="image/png" />
+  <link href="images/icon/icon16.png" rel="icon" sizes="16x16" type="image/png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <title>Тойға шақыру</title>
+</head>
+
+<body>
+
+  <header>
+    <p href="/" class="logo" style="font-size: 40px; font-family: 'Great Vibes', cursive;">Yйлену тойы</p>
+    <a class="menu" onclick="toggleMenu();" href="#">
+      <ion-icon class="open" name="menu-outline"></ion-icon>
+      <ion-icon class="close" name="close-outline"></ion-icon>
+    </a>
+    <ul class="nav">
+      <li>
+        <a class="nav-btn active" href="/" onclick="resetHeader();">
+          <ion-icon name="home-outline"></ion-icon>
+        </a>
+      </li>  
+      <li>
+        <a class="nav-btn" href="#" data-target="photo">фото</a>
+      </li>
+      <li>
+        <a class="nav-btn" href="#" data-target="contact">контакты</a>
+      </li>
+    </ul>
+  </header>
+  <!-- Navbar -->
+  <ul class="nav-mobile">
+    <li>
+      <a class="nav-btn active" href="/" onclick="resetHeader();">
+        <ion-icon name="home-outline"></ion-icon>
+      </a>
+    </li>
+    <li>
+      <a class="nav-btn" href="#" data-target="photo">Фото</a>
+    </li>
+    <li>
+      <a class="nav-btn" href="#" data-target="contact">Той иелері</a>
+    </li>
+  </ul>
+  <!-- Banner -->
+  <div class="banner container-fluid">
+    <div class="bg-slide slide-1 active">
+      <div class="content" style="text-align: center;">
+        <p class="animate__animated animate__fadeInUp animate__delay-1s"
+          style="font-size: 20px; font-family: 'Great Vibes', cursive;">
+          Құрметті ағайын-туыс,бауырлар,құда-жекжат,дос-жаран,көрші-көлем,құрдастар және де әріптестер!
+      </p>
+        <p class="animate__animated animate__fadeInUp animate__delay-1s"
+          style="font-size: 25px; font-family: 'Great Vibes', cursive;">Сіздерді балаларымыз</p>
+        <h1 class="animate__animated animate__fadeInUp" style="font-family: 'Great Vibes', cursive;">Сейфолла & Аиданың
+        </h1>
+        <div class="t029">
+          <div class="t029__container t-container">
+            <div class="t029__col t-col t-col_8">
+              <div class="t029__linewrapper" style="opacity:1;">
+                <div class="t029__opacity t029__opacity_left"
+                  style="background-image: -moz-linear-gradient(right, #000000, rgba(0,0,0, 0)); background-image: -webkit-linear-gradient(right, #000000, rgba(0,0,0, 0)); background-image: -o-linear-gradient(right, #000000, rgba(0,0,0, 0)); background-image: -ms-linear-gradient(right, #000000, rgba(0,0,0, 0)); width: 10%; height: 2px;">
+                </div>
+                <div class="t029__line" style="background: #000000; height: 2px; width: 90%;"></div>
+                <div class="t029__opacity t029__opacity_right"
+                  style="background-image: -moz-linear-gradient(left, #000000, rgba(0,0,0, 0)); background-image: -webkit-linear-gradient(left, #000000, rgba(0,0,0, 0)); background-image: -o-linear-gradient(left, #000000, rgba(0,0,0, 0)); background-image: -ms-linear-gradient(left, #000000, rgba(0,0,0, 0)); width: 10%; height: 2px;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="animate__animated animate__fadeInUp animate__delay-1s" style="font-size: 23px; font-family: 'Great Vibes', cursive;">
+          шаңырақ көтеру тойына арналған салтанатты ақ дастарханымыздың қадірлі қонағы болуға шақырамыз!
+        </p>
+      </div>
+
+      <div class="circle bg">
+        <img src="./images/wedding-1.jpg" alt="" />
+        <div class="circle large">
+          <img src="./images/wedding-1.jpg" alt="" />
+          <div class="circle small">
+            <img src="./images/wedding-1.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-slide slide-2">
+      <div class="content" style="text-align: center;">
+        <p class="animate__animated animate__fadeInUp animate__delay-1s"
+          style="font-size: 30px; font-family: 'Great Vibes', cursive;">Той салтанаты:</p>
+        <p class="animate__animated animate__fadeInUp animate__delay-1s"
+          style="font-size: 30px; font-family: 'Great Vibes', cursive;"> 2024 жылдың 17 тамыз күні сағат 19:00-же
+          басталады </p>
+
+
+        <table>
+
+          <thead>
+            <tr>
+              <th>Дс</th>
+              <th>Сс</th>
+              <th>Ср</th>
+              <th>Бс</th>
+              <th>Жм</th>
+              <th>Сб</th>
+              <th>Жб</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>1</td> 
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>6</td>
+              <td>7</td>
+              <td>8</td>
+              <td>9</td>
+              <td>10</td>
+              <td>11</td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td>13</td>
+              <td>14</td>
+              <td>15</td>
+              <td>16</td>
+              <td class="highlight">17</td>
+              <td>18</td>
+            </tr>
+            <tr>
+              <td>19</td>
+              <td>20</td>
+              <td>21</td>
+              <td>22</td>
+              <td>23</td>
+              <td>24</td>
+              <td>25</td>
+            </tr>
+            <tr>
+              <td>26</td>
+              <td>27</td>
+              <td>28</td>
+              <td>29</td>
+              <td>30</td>
+              <td>31</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="circle bg">
+        <img src="./images/wedding-2.jpg" alt="" />
+        <div class="circle large">
+          <img src="./images/wedding-2.jpg" alt="" />
+          <div class="circle small">
+            <img src="./images/wedding-2.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-slide slide-3">
+      <div class="content">
+        <table>
+          <tr>
+            <td>
+              <h2 style="text-align: center; font-family: 'Great Vibes', cursive;">Ақтөбе қаласы</h2>
+              <h2 style="text-align: center; font-family: 'Great Vibes', cursive;">"Amira Grand Hall" мейрамханасы</h2>
+              <h3 style="text-align: center; font-family: 'Great Vibes', cursive;"> Әлия Молдағұлова даңғылы, 34</h3>
+            </td>
+            <td><img src="./images/wedding-party.jpg" width="200" height="150" /></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <div class="address-icon" style="text-align: center;">
+                <a href="https://2gis.kz/aktobe/firm/70000001044509117"
+                  target="_blank">
+                  <img src="./images/map/2gis.png" style="width: 100px; height: auto;" />
+                </a>
+              </div>
+            </td>
+          </tr>
+
+        </table>
+      </div>
+
+
+
+      <div class="circle bg">
+        <img src="./images/wedding-3.jpg" alt="" />
+        <div class="circle large">
+          <img src="./images/wedding-3.jpg" alt="" />
+          <div class="circle small">
+            <img src="./images/wedding-3.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <ul class="slide-loader animate__animated animate__fadeInUp">
+      <!-- <p class="next-page-label">әрі қарай </p> -->
+      <li>
+        <a class="slide-btn " data-target="slide-1"  >1</a>
+      </li>
+      <li>
+        <a class="slide-btn" data-target="slide-2"  >2</a>
+      </li>
+      <li>
+        <a class="slide-btn" data-target="slide-3"  >3</a>
+      </li>
+    </ul>
+
+    <div class="lead animate__animated animate__fadeInUp">
+      <svg viewBox="0 0 100 100" width="100" height="100">
+        <defs>
+          <path id="circle" d="
+          M 50, 50
+          m -37, 0
+          a 37,37 0 1,1 74,0
+          a 37,37 0 1,1 -74,0" />
+        </defs>
+      </svg>
+
+    </div>
+  </div>
+
+  <!-- Main Start -->
+  <main>
+    
+    <!-- Photo Section -->
+    <section id="photo" class="photo">
+      <div class="container">
+        <div class="row">
+          <h1> Фотоальбом жуырда:)</h1>
+        </div>
+        <div class="col-lg-4 col-md-6 photo-item filter-honeymoon">
+      </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="row">
+          <h1>Той иелері</h1>
+          <p style="font-size: 34px; font-family: 'Great Vibes', cursive; text-align: center;">Нұржан-Меруерт</p>
+       </div>
+
+
+        <div class="row mt-5">
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="phone">
+                <ion-icon name="call-outline"></ion-icon>
+                <h4>Тел.нөмiрлерiмiз:</h4>
+                <p>+7 778 854 77 00</p>
+                <p> +7 701 55470 17</p>
+              </div>
+            </div>
+          </div>
+       </div>
+      </div>
+    </section>
+  </main>
+  <div class="bottom_left">
+    <audio id="player" src="mus.mp3"></audio>
+    <div>
+      <i 
+        class="fa fa-music fa-2x"
+        onclick="document.getElementById('player').play()"
+      ></i>
+    </div>
+  </div>
+  <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/remarkable/1.7.1/remarkable.js" type="text/javascript"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+
+  <script src="./js/isotope.js"></script>
+  <script src="./js/glightbox.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
